@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px 60px;
+
+}
+
+.elements {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.pokemon {
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
